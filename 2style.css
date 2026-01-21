@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f6f5f3;
+}
+
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 420px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0,0,0,.15);
+}
+
+.login-box h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.login-box label {
+  font-size: 14px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 18px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.login-box p {
+  font-size: 13px;
+  color: #666;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 14px;
+  background: #2ecc71;
+  border: none;
+  border-radius: 0px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero {
+  background: #a9c7c5;
+  padding: 30px 40px 50px;
+  color: white;
+}
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.hero h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 42px;
+  font-weight: 300;
+}
+
+
+.directory {
+  display: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+/* GRID */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.card h3 {
+  margin: 10px 0 8px;
+}
+
+.card button {
+  padding: 7px 16px;
+  background: #3498db;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
