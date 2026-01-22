@@ -82,7 +82,7 @@ body {
   margin: 50px auto;
 }
 
-/* GRID */
+
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
