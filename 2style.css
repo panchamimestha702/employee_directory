@@ -4,6 +4,7 @@ body {
   background: #f6f5f3;
 }
 
+/* Login */
 .login-wrapper {
   height: 100vh;
   display: flex;
@@ -47,10 +48,15 @@ body {
   padding: 14px;
   background: #2ecc71;
   border: none;
-  border-radius: 0px;
+  border-radius: 6px;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+}
+
+/* Directory */
+.directory {
+  display: none;
 }
 
 .hero {
@@ -69,20 +75,13 @@ body {
   text-align: center;
   margin-top: 40px;
   font-size: 42px;
-  font-weight: 10;
-}
-
-
-
-.directory {
-  display: none;
+  font-weight: 400;
 }
 
 .container {
   max-width: 1000px;
   margin: 40px auto;
 }
-
 
 .cards {
   display: grid;
@@ -115,7 +114,8 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 768px){
+/* ===== Mobile Responsive ===== */
+@media (max-width: 768px) {
 
   .login-box{
     width: 90%;
@@ -127,21 +127,22 @@ body {
     text-align: center;
   }
 
+  .hero h1{
+    font-size: 28px;
+  }
+
   .hero-top{
     flex-direction: column;
     gap: 8px;
   }
 
-  .hero h1{
-    font-size: 28px;
-  }
-
   .container{
-    margin: 20px 10px;
+    padding: 10px;
   }
 
   .cards{
     grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
   }
 
   .card img{
@@ -150,7 +151,7 @@ body {
   }
 }
 
-
+/* Tablet */
 @media (min-width: 769px) and (max-width: 1024px){
   .cards{
     grid-template-columns: repeat(2, 1fr);
