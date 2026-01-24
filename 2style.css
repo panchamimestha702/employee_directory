@@ -3,8 +3,6 @@ body {
   font-family: "Segoe UI", Arial, sans-serif;
   background: #f6f5f3;
 }
-
-/* Login */
 .login-wrapper {
   height: 100vh;
   display: flex;
@@ -54,7 +52,6 @@ body {
   cursor: pointer;
 }
 
-/* Directory */
 .directory {
   display: none;
 }
@@ -114,7 +111,6 @@ body {
   cursor: pointer;
 }
 
-/* ===== Mobile Responsive ===== */
 @media (max-width: 768px) {
 
   .login-box{
