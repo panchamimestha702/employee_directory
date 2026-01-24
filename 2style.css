@@ -73,6 +73,7 @@ body {
 }
 
 
+
 .directory {
   display: none;
 }
@@ -112,4 +113,46 @@ body {
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
+}
+
+@media (max-width: 768px){
+
+  .login-box{
+    width: 90%;
+    padding: 25px;
+  }
+
+  .hero{
+    padding: 20px;
+    text-align: center;
+  }
+
+  .hero-top{
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero h1{
+    font-size: 28px;
+  }
+
+  .container{
+    margin: 20px 10px;
+  }
+
+  .cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card img{
+    width: 140px;
+    height: 140px;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
